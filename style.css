@@ -1,0 +1,224 @@
+html , body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* Header Seciton */
+
+header {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/header-background.PNG");
+}
+
+/* Navbar Section */
+
+nav ul li a {
+  color: white;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background-color: #373a40;
+  border-radius: 8%;
+  color: white;
+}
+
+/* Hero content section*/
+.carousel-item p {
+  color: white;
+  text-shadow: 1px #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hero-button {
+  width: 250px;
+  background-color: #d2f5e3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#carouselExampleControls {
+  margin-top: 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.navbar {
+ background-color: #249C9B;
+}
+
+.navbar-logo {
+  width: 120px;
+  object-fit: contain;
+}
+
+/* Hotel Section */
+
+.hotel-section {
+  background-color: #a6f6f1;
+  width: 100%;
+}
+
+.hotel-section hr {
+  margin-left: 45%;
+}
+
+.image-bus {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+/* Activities section */
+
+.activities-section {
+  background-color: #C189B9;
+  width: 100%;
+  position: relative;
+}
+
+.activities-section img {
+  border-radius: 4px;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+.activities-section hr {
+  margin-left: 45%;
+}
+
+.desc {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color:#EB9DC5;
+  border-top: 6px solid rgba(199, 86, 86, 0.5);
+  border-left: 6px solid rgba(199, 86, 86, 0.5);
+  border-radius: 10px;
+}
+
+/* activities continue section */
+.activities_next {
+  background-color: #F5F5F5;
+}
+
+.activities_next hr {
+  margin-left: 45%;
+}
+
+/* Progress bar*/
+
+.ui-widget {
+  position: relative;
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  margin: 1.5rem;
+  margin-left: 45px;
+  border: 1.2rem solid #ff6464;
+  text-align: center;
+  border-radius: 6rem;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+  border-bottom-color: #fff;
+  border-top-color: #fff;
+  border-right-color: #fff;
+  box-sizing: border-box;
+}
+
+.ui-widget .ui-value {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 19px;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+/* Comments Section*/
+
+.comment-section {
+  background-color: #FFEDCB;
+  width: 100%;
+}
+
+.comment-section hr {
+  margin-left: 45%;
+}
+
+.profile-card {
+  display: inline-flex;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  border: 5px solid green;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.more-comment {
+    border-bottom: 4px solid rebeccapurple;
+    background-color: rosybrown;
+}
+
+/* Contact Section */
+
+.contact-section {
+  width: 100%;
+  background-color: #1FA2F6;
+  padding-bottom: 80px;
+}
+
+.contact-section hr {
+  margin-left: 47%;
+  border: 2px solid black;
+}
+
+.form-group input {
+  width: 300px;
+}
+
+.form-submit-button {
+  background-color: rosybrown;
+  color: black;
+  width: 300px;
+  margin-top: 32px;
+  border-bottom: 4px solid rebeccapurple;
+}
+
+/* Footer */
+
+footer {
+  background-color: #d2f5e3;
+}
+
+.footer ul li{
+  display: inline-block;
+  font-size: 34px;
+  padding: 10px;
+}
+
+.fa-facebook {
+  color: #00416d;
+}
+
+.fa-twitter-square {
+  color: #5475cf;
+}
+
+.fa-instagram-square {
+  color: #660099;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
